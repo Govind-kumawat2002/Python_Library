@@ -10,8 +10,8 @@ while True:
     data = message[0]
     data = "\n"
     data.decode("ascii")
-    with open(ip_address,'a+') as file:
-        file.write(data)
+    # with open(ip_address,'a+') as file:
+    #     file.write(data)
 
     
 
