@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("bike-background.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: normal; /* Adjust headings for better readability */
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px; /* Add some letter spacing for a stylish look */
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 10px; /* Space between headings */
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.input-section {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.result-section {
+    color: white;
+    text-align: center;
+    margin-top: 40px; /* Add spacing after input section */
+}
+
+#predicted-price {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+
