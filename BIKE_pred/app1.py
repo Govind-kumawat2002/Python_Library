@@ -63,3 +63,4 @@ def predict():
         return render_template("project.html",prediction=str(pred))
 if __name__ == "__main__":
     app.run(host='0.0.0.0',port=2525,debug=True)
+    # debug
