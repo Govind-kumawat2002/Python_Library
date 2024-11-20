@@ -6,7 +6,7 @@ try:
     port_number = 9999 # 0 - 65536
     target_add = (ip_address,port_number)
     message = input("kya msg kroge: ")
-    message.encode('ascii')
+    # message.encode('ascii')
     encripted_message = message.encode('ascii')
     s.sendto(encripted_message,target_add)
 except Exception as e:
