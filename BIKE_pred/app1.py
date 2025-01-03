@@ -59,7 +59,7 @@ def predict():
         pred = model.predict(lst)
         pred = pred[0]
         pred = round(pred, 2)
-        user_data = (str(owner_name),str(brand_name),kms_driven_bike,age_bike,power_bike,pred)
+        # user_data = (str(owner_name),str(brand_name),kms_driven_bike,age_bike,power_bike,pred)
         return render_template("project.html",prediction=str(pred))
 if __name__ == "__main__":
     app.run(host='0.0.0.0',port=2525,debug=True)
